@@ -1,0 +1,21 @@
+{
+	"name": "@stockly/entry-tests-dhia0105",
+	"version": "1.0.0",
+	"description": "Stockly Entry Tests for dhia0105",
+	"scripts": {
+		"hack": "jest --config ./jest.config.js",
+		"start": "jest --config ./jest.config.js \\\\d-[A-Za-z0-9_.-]*\\\\.validation\\\\.js",
+		"validate": "jest --config ./jest.config.js"
+	},
+	"keywords": [
+		"stockly",
+		"entry-tests",
+		"$dhia0105"
+	],
+	"author": "Stockly <contact@stockly.ai> (https://stockly.ai)",
+	"private": true,
+	"license": "ISC",
+	"dependencies": {
+		"jest": "23.6.0"
+	}
+}
